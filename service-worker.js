@@ -1,4 +1,4 @@
-const CACHE_NAME = 'slope-cache'; // Change this to update the cache
+const CACHE_NAME = 'slope-cache-2'; // Change this to update the cache
 const cacheUrls = [
     '/',
     '/index.html', // Add any other HTML files you have
