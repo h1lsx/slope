@@ -5,6 +5,22 @@ const cacheUrls = [
     '/styles.css',
     '/app.js',
     '/pwa.png',
+    '/files/',
+    '/files/index.html',
+    '/files/Build/',
+    '/files/Build/slope.json',
+    '/files/Build/slope_data.unityweb',
+    '/files/Build/slope_framework.unityweb',
+    '/files/Build/slope_memory.unityweb',
+    '/files/Build/slope_wasmcode.unityweb',
+    '/files/Build/slope_wasmframework.unityweb',
+    '/files/TemplateData/',
+    '/files/TemplateData/UnityProgress.js',
+    '/files/TemplateData/ProgressEmpty.Dark.png',
+    '/files/TemplateData/ProgressFull.Dark.png',
+    '/files/TemplateData/ProgressLogo.Dark.png',
+    '/files/TemplateData/style.css',
+    '/files/TemplateData/unityloader41.js',
     // Add other assets and resources you want to cache
 ];
 
