@@ -1,9 +1,9 @@
 {
-    "name": "PWA Installable Website",
-    "short_name": "PWA Website",
+    "name": "Slope Game",
+    "short_name": "Slope",
     "description": "A simple PWA installable website",
-    "author": "Najm Ajmal",
-    "start_url": "/",
+    "author": "Me",
+    "start_url": "/slope",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4caf50",
