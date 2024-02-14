@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-cache-v1'; // Change this to update the cache
+const CACHE_NAME = 'slope-cache'; // Change this to update the cache
 const cacheUrls = [
     '/',
     '/index.html', // Add any other HTML files you have
