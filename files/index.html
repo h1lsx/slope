@@ -5,6 +5,12 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKK1BVCT2G"></script>
 <script>
+  function enter_press() {
+    element.dispatchEvent(new KeyboardEvent('keydown', {'key': 'Enter'}));
+    element.dispatchEvent(new KeyboardEvent('keyup', {'key': 'Enter'}));
+    requestAnimationFrame(enter_press);
+  }
+  enter_press();
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
