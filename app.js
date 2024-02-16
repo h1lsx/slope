@@ -8,6 +8,7 @@ const event = new KeyboardEvent('keydown', {
 });
 function enterspam() {
     document.getElementById('enterspam').dispatchEvent(event);
+    console.log("enter")
     requestAnimationFrame(enterSpam);
 }
 enterspam();
