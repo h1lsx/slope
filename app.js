@@ -1,17 +1,4 @@
 // Check if the browser supports service workers
-// create a new keyboard event and set the key to "Enter"
-const event = new KeyboardEvent('keydown', {
-  key: 'Enter',
-  code: 'Enter',
-  which: 13,
-  keyCode: 13,
-});
-function enterspam() {
-    document.getElementById('enterspam').dispatchEvent(event);
-    console.log("enter")
-    requestAnimationFrame(enterspam);
-}
-enterspam();
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('service-worker.js')
         .then(function(registration) {
