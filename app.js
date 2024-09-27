@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) {
 }
 
 // Check if the app can be installed
-window.addEventListener('beforeinstallprompt', (event) => {
+/*window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault(); // Prevent the default browser install prompt
     const installButton = document.getElementById('installButton');
     installButton.style.display = 'block';
@@ -27,3 +27,4 @@ window.addEventListener('beforeinstallprompt', (event) => {
         });
     });
 });
+*/
