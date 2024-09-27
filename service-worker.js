@@ -1,4 +1,5 @@
 const CACHE_NAME = 'slope-cache-3'; // Change this to update the cache
+cacheNames = [];
 const cacheUrls = [
     '/',
     '/index.html', // Add any other HTML files you have
@@ -20,7 +21,7 @@ const cacheUrls = [
     '/files/TemplateData/ProgressFull.Dark.png',
     '/files/TemplateData/ProgressLogo.Dark.png',
     '/files/TemplateData/style.css',
-    '/files/TemplateData/unityloader41.js',
+    '/files/TemplateData/unityloader41.js'
     // Add other assets and resources you want to cache
 ];
 
