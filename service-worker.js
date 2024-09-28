@@ -35,6 +35,7 @@ async function cacheFirstWithRefresh(request) {
       const cache = await caches.open(cacheName);
       cache.put(request, networkResponse.clone());
     }
+    console.log(networkResponse);
     return networkResponse;
   });
 
