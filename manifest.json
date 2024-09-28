@@ -3,7 +3,7 @@
     "short_name": "Slope",
     "description": "A simple PWA installable website",
     "author": "Me",
-    "start_url": "/slope",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4caf50",
