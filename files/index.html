@@ -28,8 +28,9 @@
           background-color: #9b34eb;
           color: white;
         }
-        ##canvas {
-          min-height:calc(100% + env(safe-area-inset-top));
+        [id$=canvas] {
+          width:200;
+          height:calc(200% + env(safe-area-inset-top) + env(safe-area-inset-top));
         }
         .closebtn {
           margin-left: 15px;
