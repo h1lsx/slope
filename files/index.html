@@ -28,7 +28,9 @@
           background-color: #9b34eb;
           color: white;
         }
-
+        ##canvas {
+          min-height:calc(100% + env(safe-area-inset-top));
+        }
         .closebtn {
           margin-left: 15px;
           color: white;
@@ -56,7 +58,7 @@ Drop a star on the repo if you enjoy.
 
 <body style="margin: 0; overflow: hidden;">
     <div class="webgl-content">
-        <div id="gameContainer" style="width: 100%; height:calc(100% + env(safe-area-inset-top)); min-height:calc(100% + env(safe-area-inset-top)); margin: 0;"></div>
+        <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
     </div>
     <!-- <a title="GDPR-compliant Web Analytics" href="https://clicky.com/101393847"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a> -->
     <script async src="//static.getclicky.com/101393847.js"></script>
@@ -128,6 +130,12 @@ var defaultOptions = {
         requestAnimationFrame(enterspam);
       }
       enterspam();
+      const dpr = window.devicePixelRatio;
+      let canvas = document.getElementbyId("#canvas");
+      const width = canvas.clientWidth * dpr;
+      const height = canvas.clientHeight * dpr;
+      canvas.width = width;
+      canvas.height = height;
     </script>
 </body>
 <!-- Slope game by y8 games, not me.-->
