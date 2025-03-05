@@ -29,7 +29,7 @@
           color: white;
         }
         [id$=canvas] {
-          width:200;
+          width:200%;
           height:calc(200% + env(safe-area-inset-top) + env(safe-area-inset-top));
         }
         .closebtn {
@@ -131,12 +131,6 @@ var defaultOptions = {
         requestAnimationFrame(enterspam);
       }
       enterspam();
-      const dpr = window.devicePixelRatio;
-      let canvas = document.getElementById("#canvas");
-      const width = canvas.clientWidth * dpr;
-      const height = canvas.clientHeight * dpr;
-      canvas.width = width;
-      canvas.height = height;
     </script>
 </body>
 <!-- Slope game by y8 games, not me.-->
